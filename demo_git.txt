@@ -1,0 +1,13 @@
+
+
+1 crear una carpeta demo
+2 ingresar a la carpeta demo
+3 crear un archivo demo1.txt agregar el contenidos hola mundo y grabar,salir
+4 botón derecho en el centro de la ventana y seleccionar la opción "Git Bash Here".
+  Esto abrirá una consola.
+  con el comando ls se puede mostrar el contenido de la carpeta (directorio, es como el comando dir)
+5 git config --global cristianGarcia
+  git config --global crist.garci@profesor.duoc.cl
+  git config --global --list 
+  
+6
