@@ -10,4 +10,35 @@
   git config --global crist.garci@profesor.duoc.cl
   git config --global --list 
   
-6
+6 git init
+  Initialized empty Git repository in C:/Users/profe/OneDrive/Escritorio/GitDemo/.git/
+  
+7  git status
+	On branch master
+
+	No commits yet
+
+	Untracked files:
+	  (use "git add <file>..." to include in what will be committed)
+			demo_git.txt
+
+8   git add .
+
+     profe@DESKTOP-OISRGMH MINGW64 ~/OneDrive/Escritorio/GitDemo (master)
+
+9   git status
+	On branch master
+
+	No commits yet
+
+	Changes to be committed:
+	  (use "git rm --cached <file>..." to unstage)
+			new file:   demo_git.txt
+
+10  git commit -m "15-06-2022 primera actualización"
+	[master (root-commit) 2120fcb] 15-06-2022 primera actualización
+	 1 file changed, 13 insertions(+)
+	 create mode 100644 demo_git.txt
+
+11  
+
