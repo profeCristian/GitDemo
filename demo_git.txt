@@ -1,4 +1,6 @@
+https://help.dreamhost.com/hc/es/articles/115000676991-Enviar-tu-repositorio-Git-de-DreamHost-a-GitHub
 
+Paso a paso para trabajar desde git a github
 
 1 crear una carpeta demo
 2 ingresar a la carpeta demo
@@ -40,5 +42,26 @@
 	 1 file changed, 13 insertions(+)
 	 create mode 100644 demo_git.txt
 
-11  
+11  -- enviar repositorio a github --
+    a. en github ingresar al repositorio y obtener la ruta 
 
+    git clone https://github.com/profeCristian/GitDemo.git
+		Cloning into 'GitDemo'...
+		remote: Enumerating objects: 3, done.
+		remote: Counting objects: 100% (3/3), done.
+		remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+		Receiving objects: 100% (3/3), done.
+	b. previo a enviar los datos actualizar el repostorio y finalmente hacer un push
+	
+	git push origin master
+	
+	----
+	a. conectar la carpeta existente en tu sistema local al repositorio de Github
+	git remote add origin https://github.com/profeCristian/GitDemo.git
+
+    b. Esto hace algo de magia usando git pull y git push para garantizar que el contenido
+       de tu nuevo repositorio de Github y la carpeta en tu sistema local sean los mismos.
+	git remote -v
+	
+	c. 
+	git push origin master
