@@ -1,4 +1,4 @@
-https://help.dreamhost.com/hc/es/articles/115000676991-Enviar-tu-repositorio-Git-de-DreamHost-a-GitHub
+https://www.freecodecamp.org/espanol/news/subir-a-github-lo-suficientemente-simple-para-poetas/
 
 Paso a paso para trabajar desde git a github
 
